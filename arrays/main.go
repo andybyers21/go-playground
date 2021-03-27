@@ -1,4 +1,4 @@
-// scoreays, Slices and Maps
+// Arrays, Slices and Maps
 
 package main
 
@@ -16,7 +16,7 @@ func percentageConvert() {
 
 	// test scores
 	score := []float64{
-		30, 14, 22, 28, 4, 12,
+		30, 14, 22, 28, 4, 12, 26, 29, 18,
 	}
 
 	// create a slice to hold percentage scores
@@ -35,6 +35,8 @@ func percentageConvert() {
 	}
 	// calculate average of all scores
 	averageScore := t / float64(len(score))
+	// round to a whole number
+	averageScore = math.Round(averageScore)
 
 	// print results to the terminal
 	fmt.Println("all test scores: ", score)
