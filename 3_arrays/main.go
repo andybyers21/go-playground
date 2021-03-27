@@ -1,4 +1,4 @@
-// Arrays, Slices and Maps
+// Compute test scores using Arrays & Slices
 
 package main
 
