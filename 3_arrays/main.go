@@ -38,22 +38,23 @@ func main() {
 	// smallestInt()
 }
 
-// Convert test scores out of 30 (in an array) to a percentage:
-
 // Test scores
+// ---- ------
 var score = []float64{
 	30, 14, 22, 28, 4, 12, 26, 29, 18,
 }
 
+// Check initial scores for errors
 func scoreCheck() {
 	for i := 0; i < len(score); i++ {
-		if score[i] > 30 {
-			fmt.Println("incorrect score submitted (out of range)")
+		if score[i] > 30 || score[i] < 0 {
+			fmt.Println("incorrect score submitted (out of range):", score[i])
 			os.Exit(1)
 		}
 	}
 }
 
+// Convert test scores out of 30 (in a slice) to a percentage:
 func percentageConvert() {
 	// create a slice to hold percentage scores
 	var percentScore = make([]float64, len(score))
@@ -95,6 +96,6 @@ func smallLarge() {
 	smallPercent := math.Round((small / 30) * 100)
 	largePercent := math.Round((large / 30) * 100)
 
-	fmt.Println("lowest score was: ", small, ",", smallPercent, "%", "\nhighest score was: ", large, ",", largePercent, "%")
+	fmt.Println("lowest score was: ", small, "/", smallPercent, "%", "\nhighest score was: ", large, "/", largePercent, "%")
 
 }
