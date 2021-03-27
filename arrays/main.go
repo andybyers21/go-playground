@@ -31,7 +31,7 @@ func percentageConvert() {
 		t += percentScore[i]
 	}
 
-	averageScore := t / 5
+	averageScore := t / len(score)
 
 	fmt.Println("all test scores: ", score)
 	fmt.Println("all scores by %: ", percentScore)
