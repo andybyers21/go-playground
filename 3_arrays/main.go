@@ -21,8 +21,10 @@ func smallestInt() {
 		19, 97, 9, 17,
 	}
 
+	// Assign the first number in arrax x to variable h. Loop through each
+	// number in the array and if smaller than h replace h. Once the loop is
+	// complete this will leave the smallest number in var h
 	h := x[0]
-
 	for i := 0; i <= len(x)-1; i++ {
 		if x[i] < h {
 			h = x[i]
