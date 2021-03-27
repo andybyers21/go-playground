@@ -5,14 +5,8 @@ package main
 import (
 	"fmt"
 	"math"
+	"os"
 )
-
-func main() {
-	percentageConvert()
-	fmt.Println("")
-	smallLarge()
-	// smallestInt()
-}
 
 // Write a program that finds the smallest number in an array:
 func smallestInt() {
@@ -36,11 +30,28 @@ func smallestInt() {
 	fmt.Println(h)
 }
 
+func main() {
+	scoreCheck()
+	percentageConvert()
+	fmt.Println("")
+	smallLarge()
+	// smallestInt()
+}
+
 // Convert test scores out of 30 (in an array) to a percentage:
 
 // Test scores
 var score = []float64{
 	30, 14, 22, 28, 4, 12, 26, 29, 18,
+}
+
+func scoreCheck() {
+	for i := 0; i < len(score); i++ {
+		if score[i] > 30 {
+			fmt.Println("incorrect score submitted (out of range)")
+			os.Exit(1)
+		}
+	}
 }
 
 func percentageConvert() {
