@@ -11,12 +11,19 @@ func main() {
 	percentageConvert()
 }
 
+// convert test scores out of 30 (in an array) to a percentage
 func percentageConvert() {
-	// convert test scores out of 30 (in an array) to a percentage
 
 	// test scores
-	score := []float64{
-		30, 14, 22, 28, 4, 12, 26, 29, 18,
+	score := map[string]float64{
+		"Dave":   30,
+		"Bill":   14,
+		"Claire": 22,
+		"Norris": 28,
+		"Susan":  4,
+		"Mary":   12,
+		"Hugo":   26,
+		"Phil":   29,
 	}
 
 	// create a slice to hold percentage scores
