@@ -8,8 +8,10 @@ import (
 )
 
 func main() {
-	// percentageConvert()
-	smallestInt()
+	percentageConvert()
+	fmt.Println("")
+	smallLarge()
+	// smallestInt()
 }
 
 // Write a program that finds the smallest number in an array:
@@ -34,14 +36,14 @@ func smallestInt() {
 	fmt.Println(h)
 }
 
-// convert test scores out of 30 (in an array) to a percentage
+// Convert test scores out of 30 (in an array) to a percentage:
+
+// Test scores
+var score = []float64{
+	30, 14, 22, 28, 4, 12, 26, 29, 18,
+}
+
 func percentageConvert() {
-
-	// test scores
-	score := []float64{
-		30, 14, 22, 28, 4, 12, 26, 29, 18,
-	}
-
 	// create a slice to hold percentage scores
 	var percentScore = make([]float64, len(score))
 
@@ -65,4 +67,23 @@ func percentageConvert() {
 	fmt.Println("all test scores: ", score)
 	fmt.Println("all scores by %: ", percentScore)
 	fmt.Println("average test score: ", averageScore, "%")
+}
+
+// find the smallest and largest test scores.
+func smallLarge() {
+	small := score[0]
+	large := score[0]
+	for i := 0; i <= len(score)-1; i++ {
+		if score[i] < small {
+			small = score[i]
+		} else if score[i] > large {
+			large = score[i]
+		}
+	}
+
+	smallPercent := math.Round((small / 30) * 100)
+	largePercent := math.Round((large / 30) * 100)
+
+	fmt.Println("lowest score was: ", small, ",", smallPercent, "%", "\nhighest score was: ", large, ",", largePercent, "%")
+
 }
