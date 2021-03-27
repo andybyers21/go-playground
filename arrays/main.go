@@ -15,11 +15,11 @@ func percentageConvert() {
 	// convert test scores out of 30 (in an array) to a percentage
 
 	// test scores
-	score := [5]float64{
+	score := []float64{
 		30, 14, 22, 28, 4,
 	}
 
-	var percentScore [5]float64
+	var percentScore []float64
 	var t float64
 
 	for i := 0; i < len(score); i++ {
