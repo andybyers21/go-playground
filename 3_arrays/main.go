@@ -1,5 +1,4 @@
 // Compute test scores using Arrays & Slices
-
 package main
 
 import (
@@ -8,7 +7,7 @@ import (
 	"os"
 )
 
-// Write a program that finds the smallest number in an array:
+// (Pre-test) Write a program that finds the smallest number in an array:
 func smallestInt() {
 	x := []int{
 		48, 96, 86, 68,
@@ -30,15 +29,7 @@ func smallestInt() {
 	fmt.Println(h)
 }
 
-func main() {
-	scoreCheck()
-	percentageConvert()
-	fmt.Println("")
-	smallLarge()
-	// smallestInt()
-}
-
-// Test scores
+// Test Scores
 // ---- ------
 var score = []float64{
 	30, 14, 22, 28, 4, 12, 26, 29, 18,
@@ -98,4 +89,12 @@ func smallLarge() {
 
 	fmt.Println("lowest score was: ", small, "/", smallPercent, "%", "\nhighest score was: ", large, "/", largePercent, "%")
 
+}
+
+func main() {
+	// smallestInt()
+	scoreCheck()
+	percentageConvert()
+	fmt.Println("")
+	smallLarge()
 }
