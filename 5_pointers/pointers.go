@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+// Every time you modify a variable it is copied to a new location in the stack.
+// It is more effecient to store a variable in one place and modify it using
+// pointers.
+
 func main() {
 	basicSyntax()
 }
