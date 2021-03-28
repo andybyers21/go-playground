@@ -6,31 +6,36 @@
 
 ### Intro
 
-Who is the book aimed at?? (Beginners or people with a small amount of exposure
-to code)
+- From zero to ?:
+  - Who is the book aimed at?? (Beginners or people with a small amount of
+    exposure to code, beginners familiar with programming basics)
+- Open Source / GitHub.
+- Read online or ePub or pdf.
 
-Open Source / GitHub.
-Read online or ePub or pdf.
-
-Pro’s and cons of GoLang
-How the book is laid out
+- Pro’s and cons of GoLang
+- How the book is laid out
 
 ### Set-up and Install
 
-Code editors
-Update GO
+- Code editors, terminal, git etc.
+- Install go
+  - Environment Variables
+- Update GO
 
 ## Mid Chapters
 
 ### Basics
 
-Strings and string formatting
+- Strings and string formatting
+- Variables
+  - The importance of variable naming
+- Comments and stuff,
 
-Variables
-The importance of variable naming
-Comments and stuff,
+### Using Go in teh terminal
+
+- `go` commands
 
 ## Post chapters
 
-Packages etc
+- Packages etc.
 
