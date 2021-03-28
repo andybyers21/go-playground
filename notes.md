@@ -39,6 +39,10 @@
 
 - `go` commands
 
+### Methods and stuff
+
+- What's the difference between a method and a function.
+
 ## Post chapters
 
 - Packages etc.
