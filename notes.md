@@ -24,12 +24,15 @@
 
 ## Mid Chapters
 
-### Basics
+### 1. Basics
 
+- "hello, world"
 - Strings and string formatting
 - Variables
   - The importance of variable naming
 - Comments and stuff,
+
+### 2. Functions
 
 ### Using Go in teh terminal
 
@@ -39,3 +42,7 @@
 
 - Packages etc.
 
+## Projects
+
+- Static Server/ hello-go
+- Network CLI
