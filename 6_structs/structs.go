@@ -11,6 +11,15 @@ type Circle struct {
 	x, y, r float64
 }
 
+func circleArea(cr *Circle) float64 {
+	// Inputs a `Circle`, returns area as a float64
+	// Use a pointer to `Circle` to modify the original values (in `main()` in
+	// this case).
+	// Takes the radius of a defined `Circle`, calculates and returns the area
+	area := math.Pi * (cr.r * cr.r)
+	return area
+}
+
 func main() {
 	// create a new instance of `Circle`, a local circle. By default the values
 	// will be set to 0
@@ -25,13 +34,4 @@ func main() {
 	// the original value in `circleArea`)
 	fmt.Printf("%.2f\n", circleArea(&roundThing))
 
-}
-
-func circleArea(cr *Circle) float64 {
-	// Inputs a `Circle`, returns area as a float64
-	// Use a pointer to `Circle` to modify the original values (in `main()` in
-	// this case).
-	// Takes the radius of a defined `Circle`, calculates and returns the area
-	area := math.Pi * (cr.r * cr.r)
-	return area
 }
