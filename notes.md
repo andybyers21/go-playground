@@ -18,6 +18,7 @@
 ### Set-up and Install
 
 - Code editors, terminal, git etc.
+  - The go playground
 - Install go
   - Environment Variables
 - Update GO
@@ -34,7 +35,7 @@
 
 ### 2. Functions
 
-### Using Go in teh terminal
+### Using Go in the terminal
 
 - `go` commands
 
@@ -44,5 +45,8 @@
 
 ## Projects
 
+Spread projects throughout the book appropriate to what has been learned so far.
 - Static Server/ hello-go
 - Network CLI
+- API's
+
