@@ -6,6 +6,9 @@
 
 ### Intro
 
+Who is the book aimed at?? (Beginners or people with a small amount of exposure
+to code)
+
 Open Source / GitHub.
 Read online or ePub or pdf.
 
@@ -20,6 +23,8 @@ Update GO
 ## Mid Chapters
 
 ### Basics
+
+Strings and string formatting
 
 Variables
 The importance of variable naming
