@@ -35,6 +35,8 @@
 
 ### 2. Functions
 
+- Anonymous Functions
+
 ### Using Go in the terminal
 
 - `go` commands
@@ -45,7 +47,14 @@
 
 ## Post chapters
 
+### Go
+
 - Packages etc.
+
+### Best Practices and stuff
+
+- Git & Version control (Basics)
+- Code Reviews
 
 ## Projects
 
