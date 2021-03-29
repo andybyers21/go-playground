@@ -18,6 +18,8 @@
 
 ## How to do one?
 
+**1. Does it work!** 
+
 1. Figure out why the code was written and what's the purpose behind it.  - Changes in requirements?
 
 - Issues?
