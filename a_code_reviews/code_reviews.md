@@ -37,6 +37,7 @@
 
 - Does it do what it's supposed to do?
 - How long does it take to run?
+- Does it work within the non-functional parameters (performance etc.)
 - Any errors?
 - Do the changes require any modification to the rest of the code base?
 - Do the changes require any additional set-up steps?
@@ -59,6 +60,8 @@
 
 ## Be Aware
 
+- Your job is not to find the problems with the code author but to ensure the
+  code functions as expected. 
 - Be aware of nit picking, opinion based.
 - Be respectful, know the code author
 - Discuss!
