@@ -1,3 +1,4 @@
+// Pull down data from te internet
 package main
 
 import (
@@ -5,10 +6,13 @@ import (
 	"net/http"
 )
 
+// The handle func has been pulled out of main() for ease of readability. Notice
+// you can use html when you print line.
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>HOME</h1>")
 }
 
+// Create handlers for additional pages
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "ABOUT")
 }
