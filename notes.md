@@ -15,6 +15,22 @@
 - Pro’s and cons of GoLang
 - How the book is laid out
 
+### C1
+
+General coding overview, understanding the concepts of variables, functions, loops etc. 
+
+Best practices. 
+
+How code works, the differences between language types etc. 
+
+### C2
+
+An overview of go on the using the above concepts. 
+
+Why choose go. Concurrency and such. Cloud dev. 
+
+Syntax. Basics variables functions and loops. - then go into these in more detail later on. 
+
 ### Set-up and Install
 
 - Code editors, terminal, git etc.
